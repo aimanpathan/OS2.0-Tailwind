@@ -286,6 +286,12 @@
                 </quantity-popover>
               {% endif %}
             {%- endif -%}
+            {% if show_variant_count and card_product.variants.size > 1 %}
+              <div class="variant-count-info">
+                {% assign product_first_option = card_product.options_with_values |  map: "name" | first | downcase | append: "s"  %}
+                <p class="text-blue-700">{{ card_product.variants.size }} {{product_first_option}} available</p>
+              </div>
+            {% endif %}
           </div>
         </div>
         {% assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id %}
