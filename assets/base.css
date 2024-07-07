@@ -460,25 +460,25 @@ table:not([class]) th {
   .medium-down-hide {
     display: none !important;
   }
-  .assessment-collection-section .collection__title{
+  .tailwind-collection-section .collection__title{
     align-items: flex-start;
     gap: 10px;
   }
 }
-.assessment-collection-section .collection__image-wrapper img{
+.tailwind-collection-section .collection__image-wrapper img{
   width: 100%;
 }
-.assessment-collection-section .collection__title .title{
+.tailwind-collection-section .collection__title .title{
   margin-bottom: 0 !important;
 }
-.assessment-collection-section .product-card-wrapper .card__heading{
+.tailwind-collection-section .product-card-wrapper .card__heading{
   font-size: large;
 }
-.assessment-collection-section .variant-count-info{
+.tailwind-collection-section .variant-count-info{
   border-top: 1px solid #E4E5F9;
   padding-top: 5px;
 }
-.assessment-collection-section *{
+.tailwind-collection-section *{
   --tw-text-opacity: 1;
   color: rgb(29 78 216 / var(--tw-text-opacity)) !important;
 }

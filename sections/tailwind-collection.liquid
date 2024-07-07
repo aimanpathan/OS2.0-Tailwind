@@ -39,7 +39,7 @@
 {%- endstyle -%}
 
 <div
-  class="color-{{ section.settings.color_scheme }} isolate gradient assessment-collection-section"
+  class="color-{{ section.settings.color_scheme }} isolate gradient tailwind-collection-section"
 >
   <div
     class="collection{% if section.settings.quick_add == 'bulk' %} collection-quick-add-bulk{% endif %} section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}"
@@ -150,7 +150,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.assessment-collection.name",
+  "name": "t:sections.tailwind-collection.name",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -160,8 +160,8 @@
     {
       "type": "richtext",
       "id": "title",
-      "default": "t:sections.assessment-collection.settings.title.default",
-      "label": "t:sections.assessment-collection.settings.title.label"
+      "default": "t:sections.tailwind-collection.settings.title.default",
+      "label": "t:sections.tailwind-collection.settings.title.label"
     },
     {
       "type": "select",
@@ -194,19 +194,19 @@
     {
       "type": "collection",
       "id": "collection",
-      "label": "t:sections.assessment-collection.settings.collection.label"
+      "label": "t:sections.tailwind-collection.settings.collection.label"
     },
     {
         "type": "image_picker",
         "id": "collection_image",
-        "label": "t:sections.assessment-collection.settings.collection_image.label",
-        "info": "t:sections.assessment-collection.settings.collection_image.info"
+        "label": "t:sections.tailwind-collection.settings.collection_image.label",
+        "info": "t:sections.tailwind-collection.settings.collection_image.info"
     },
     {
         "type": "image_picker",
         "id": "collection_image_mobile",
-        "label": "t:sections.assessment-collection.settings.collection_image_mobile.label",
-        "info": "t:sections.assessment-collection.settings.collection_image_mobile.info"
+        "label": "t:sections.tailwind-collection.settings.collection_image_mobile.label",
+        "info": "t:sections.tailwind-collection.settings.collection_image_mobile.info"
     },
     {
       "type": "select",
@@ -255,30 +255,30 @@
       "max": 25,
       "step": 1,
       "default": 4,
-      "label": "t:sections.assessment-collection.settings.products_to_show.label"
+      "label": "t:sections.tailwind-collection.settings.products_to_show.label"
     },
     {
       "type": "checkbox",
       "id": "show_view_all",
       "default": true,
-      "label": "t:sections.assessment-collection.settings.show_view_all.label"
+      "label": "t:sections.tailwind-collection.settings.show_view_all.label"
     },
     {
       "type": "select",
       "id": "view_all_style",
-      "label": "t:sections.assessment-collection.settings.view_all_style.label",
+      "label": "t:sections.tailwind-collection.settings.view_all_style.label",
       "options": [
         {
           "value": "link",
-          "label": "t:sections.assessment-collection.settings.view_all_style.options__1.label"
+          "label": "t:sections.tailwind-collection.settings.view_all_style.options__1.label"
         },
         {
           "value": "outline",
-          "label": "t:sections.assessment-collection.settings.view_all_style.options__2.label"
+          "label": "t:sections.tailwind-collection.settings.view_all_style.options__2.label"
         },
         {
           "value": "solid",
-          "label": "t:sections.assessment-collection.settings.view_all_style.options__3.label"
+          "label": "t:sections.tailwind-collection.settings.view_all_style.options__3.label"
         }
       ],
       "default": "solid"
@@ -292,7 +292,7 @@
     },
     {
       "type": "header",
-      "content": "t:sections.assessment-collection.settings.header.content"
+      "content": "t:sections.tailwind-collection.settings.header.content"
     },
     {
       "type": "select",
@@ -300,19 +300,19 @@
       "options": [
         {
           "value": "adapt",
-          "label": "t:sections.assessment-collection.settings.image_ratio.options__1.label"
+          "label": "t:sections.tailwind-collection.settings.image_ratio.options__1.label"
         },
         {
           "value": "portrait",
-          "label": "t:sections.assessment-collection.settings.image_ratio.options__2.label"
+          "label": "t:sections.tailwind-collection.settings.image_ratio.options__2.label"
         },
         {
           "value": "square",
-          "label": "t:sections.assessment-collection.settings.image_ratio.options__3.label"
+          "label": "t:sections.tailwind-collection.settings.image_ratio.options__3.label"
         }
       ],
       "default": "adapt",
-      "label": "t:sections.assessment-collection.settings.image_ratio.label"
+      "label": "t:sections.tailwind-collection.settings.image_ratio.label"
     },
     {
       "type": "select",
@@ -359,20 +359,20 @@
       "type": "checkbox",
       "id": "show_secondary_image",
       "default": false,
-      "label": "t:sections.assessment-collection.settings.show_secondary_image.label"
+      "label": "t:sections.tailwind-collection.settings.show_secondary_image.label"
     },
     {
       "type": "checkbox",
       "id": "show_vendor",
       "default": false,
-      "label": "t:sections.assessment-collection.settings.show_vendor.label"
+      "label": "t:sections.tailwind-collection.settings.show_vendor.label"
     },
     {
       "type": "checkbox",
       "id": "show_rating",
       "default": false,
-      "label": "t:sections.assessment-collection.settings.show_rating.label",
-      "info": "t:sections.assessment-collection.settings.show_rating.info"
+      "label": "t:sections.tailwind-collection.settings.show_rating.label",
+      "info": "t:sections.tailwind-collection.settings.show_rating.info"
     },
     {
       "type": "select",
@@ -428,7 +428,7 @@
   ],
   "presets": [
     {
-      "name": "t:sections.assessment-collection.presets.name"
+      "name": "t:sections.tailwind-collection.presets.name"
     }
   ]
 }

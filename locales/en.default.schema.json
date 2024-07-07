@@ -830,8 +830,8 @@
         "name": "Featured collection"
       }
     },
-    "assessment-collection": {
-      "name": "Assessment collection",
+    "tailwind-collection": {
+      "name": "Tailwind collection",
       "settings": {
         "title": {
           "label": "Heading",
@@ -936,7 +936,7 @@
         }
       },
       "presets": {
-        "name": "Assessment collection"
+        "name": "Tailwind collection"
       }
     },
     "featured-product": {
